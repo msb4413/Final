@@ -1,4 +1,10 @@
 Final::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/about"
+
+  get "pages/register"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
