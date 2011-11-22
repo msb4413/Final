@@ -7,10 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<div id="title"><pre>					Web Surfer					</pre><div id="login">login<br/>password<br/>register</div></div>
+<div id="title"><pre>					Web Surfers					</pre><div id="login">login<br/>password<br/>register</div></div>
 <div id="temp">
 <div id="blank"></div>
-<div id="sidebar"></div>
+<div id="sidebar"><h3>Categories</h3>
+	<h4>Software</h4>
+	<h4>Movies/Shows</h4>
+	<h4>Music</h4>
+	<h4>Games</h4>
+	<h4>All</h4></div>
 <div id="main"><div id="news"><%= yield %></div></div>
 <div id="tools"></div>
 <div id="footer">News Previous/Next</div>
